@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,67 +41,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global algorithmic trading market is valued at approximately **$18 billion to $20.2 billion** (projected to exceed $30B+ over the coming decade at a ~8–12% CAGR). The market exhibits a **moderately fragmented** structure across infrastructure and software tooling (with diverse niche SaaS platforms, charting vendors, and developer APIs competing), while execution and high-frequency liquidity provision remain highly concentrated among elite proprietary trading firms and institutional prime brokerages.
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Alpaca](https://alpaca.markets/)**  
-
-  API-first brokerage with commission-free stock and crypto trading. Features **Paper Trading API** for strategy testing, **market data streams**, and **Python/JavaScript SDKs**. **The most developer-friendly brokerage** for algorithmic trading.
-
-
-
-- **[QuantConnect](https://www.quantconnect.com/)**  
-
-  **The largest open-source algorithmic trading platform** with cloud backtesting and live trading across multiple brokers. Features **LEAN engine**, **data from 40+ sources**, and **community strategies**.
-
-
-
-- **[TradingView](https://www.tradingview.com/)**  
-
-  Charting and social platform with **Pine Script** for strategy development. Features **backtesting**, **alerts**, and **broker integrations**.
-
-
-
-- **[MetaTrader](https://www.metatrader4.com/)**  
-
-  **The most widely used retail trading platform** with **MQL4/MQL5** for expert advisors. Features **backtesting**, **optimization**, and **VPS hosting**.
-
-
-
-- **[Interactive Brokers](https://www.interactivebrokers.com/)**  
-
-  **The most comprehensive broker API** for stocks, options, futures, and forex. Features **TWS API**, **FIX connectivity**, and **Python/Java/C++ SDKs**.
-
-
-
-- **[Tradovate](https://www.tradovate.com/)**  
-
-  Futures trading platform with **API access** for algorithmic trading. Features **backtesting**, **simulated trading**, and **low-latency execution**.
-
-
-
-- **[TradeStation](https://www.tradestation.com/)**  
-
-  Brokerage with **EasyLanguage** for strategy development. Features **backtesting**, **automation**, and **market data**.
-
-
-
-- **[KuCoin API](https://www.kucoin.com/)**  
-
-  Crypto exchange API with **spot, futures, and margin trading**. Features **WebSocket streams** and **REST endpoints**.
-
-
-
-- **[TrendSpider](https://trendspider.com/)**  
-
-  Automated technical analysis platform with **backtesting**, **strategy builder**, and **multi-timeframe analysis**.
-
-
-
-- **[Composer](https://www.composer.trade/)**  
-
-  No-code algorithmic trading platform with **symphony** strategy builder. Features **automated execution** and **backtesting**.
+| Platform | Valuation / Revenue Scale | Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Interactive Brokers](https://www.interactivebrokers.com/)** | **~$34B–$38B Market Cap** ($6.2B annual revenue) | $0/mo software fee ($0.005/share commissions, Pro/Lite tiers) | Free forever (Free TWS/Web/REST API access, non-consolidated Cboe One/IEX real-time US data, unlimited paper trading; funded account required for API execution) | Comprehensive multi-asset broker API for stocks, options, futures, and FX with TWS API, FIX connectivity, and Python/Java/C++ SDKs. |
+| **[KuCoin API](https://www.kucoin.com/)** | **$10B Valuation** (Top-tier crypto exchange) | $0/mo platform fee (0.1% spot maker/taker fee, tiered by VIP level) | Free forever (Unrestricted REST & WebSocket market data access, VIP 0 baseline rate limits, free sandbox paper trading environment) | Crypto exchange API featuring spot, futures, and margin trading with WebSocket streaming endpoints and REST execution. |
+| **[TradingView](https://www.tradingview.com/)** | **$3B+ Valuation** | Starts at $12.95/mo (Essential, billed annually) | Free forever (1 chart layout per tab, 2–5 indicators per chart, 10K historical bars, 1 watchlist of up to 30 symbols, ad-supported) | Premier charting and social platform with Pine Script for strategy prototyping, backtesting, and broker-integrated automated alerts. |
+| **[NinjaTrader / Tradovate](https://www.tradovate.com/)** | **$1.5B Parent Valuation** ($115M Tradovate acquisition) | $0/mo Free Plan ($0.39/micro contract); or $99/mo | 14-day free trial ($50,000 simulated funds, full market replay, real-time futures data); $0/mo Free Plan for funded accounts with standard per-contract commissions | Cloud-based futures trading platform with REST API, automated order execution, simulated trading, and low-latency infrastructure. |
+| **[Alpaca](https://alpaca.markets/)** | **$1.15B Valuation** ($60M–$100M+ ARR) | Starts at $99/mo (Algo Trader Plus); $0/mo standard | Free forever (200 REST API calls/min, 15-min delayed REST data, real-time IEX websocket stream capped at 30 concurrent symbols, unlimited paper trading) | Developer-first API brokerage offering commission-free stock and crypto trading with automated paper trading, market data streams, and Python/JS SDKs. |
+| **[TradeStation](https://www.tradestation.com/)** | **Monex Group Subsidiary** (~$50M+ quarterly revenues) | $0/mo API platform fee ($10/mo inactivity fee if criteria unmet) | Free forever ($10/mo inactivity fee waived by maintaining $5,000 equity balance or 10 trades per 90 days; free desktop/web platform & API sandbox access) | Veteran brokerage with EasyLanguage engine, multi-timeframe backtesting, automated rule deployment, and institutional-grade market data. |
+| **[MetaTrader](https://www.metatrader4.com/)** | **Est. $50M–$100M+ Annual Revenue** (Dominant FX infra) | $0/mo client terminal; Native VPS starts at $10–$15/mo | Free forever (Full MT4/MT5 desktop client terminal, MQL4/MQL5 strategy IDE, backtester with tick data simulation, and 24-hour native VPS trial) | The most widespread retail FX/CFD trading terminal supporting Expert Advisors (EAs) in MQL4/MQL5, strategy optimization, and automated VPS hosting. |
+| **[Composer](https://www.composer.trade/)** | **SoFi Subsidiary** ($11.4M VC funding raised) | Starts at $10/mo (Advanced); $40/mo (Pro) | Free forever Starter Plan (1 automated live trading bot/strategy, unlimited backtesting, AI strategy builder, and community library access) | Next-generation no-code algorithmic trading platform with visual logic builder ("symphonies"), AI prompt-to-strategy generation, and automated execution. |
+| **[QuantConnect](https://www.quantconnect.com/)** | **$9.7M Raised** (~$1M–$6M ARR) | Starts at $60/mo (Quant Researcher seat + compute) | Free forever (1 free `B-MICRO` backtesting node, max 200 backtests/day with 20-second queue delay, 32 KB IDE file limit; cloud live trading locked) | Institutional-grade open-source algorithmic trading engine (LEAN) with multi-asset cloud backtesting, 40+ datasets, and community strategy marketplace. |
+| **[TrendSpider](https://trendspider.com/)** | **Private / Multi-Million ARR** | Starts at $54/mo (Standard, billed annually) | 14-day paid trial (Starts at $19 upfront, grants full access to multi-timeframe automated analysis, backtesting, and cloud alerts) | Automated technical analysis and algorithmic charting platform with multi-timeframe scanning, automated indicator recognition, and strategy backtesting. |
 
 
 
