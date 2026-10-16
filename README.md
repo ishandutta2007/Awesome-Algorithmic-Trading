@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Algorithmic-Trading?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Algorithmic-Trading?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Algorithmic-Trading?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Algorithmic-Trading?style=flat-square&color=blue" alt="License" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Algorithmic-Trading"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="PRs Welcome" /></a>
@@ -82,11 +82,11 @@ The table below catalogs premier SaaS and hosted platforms, sorted in descending
 
 ## 💻 Open-Source GitHub Projects
 
-The following list compiles active open-source algorithmic trading frameworks, vectorized backtesters, data utilities, and autonomous multi-agent systems—**sorted strictly in descending order by GitHub star count**.
+The following list compiles active open-source algorithmic trading frameworks, vectorized backtesters, data utilities, and autonomous multi-agent systems—**sorted strictly in descending order by GitHub Stars_Count**.
 
 ---
 
-### 1. [TradingAgents](https://github.com/TauricResearch/TradingAgents) [![GitHub Stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=social&color=white)](https://github.com/TauricResearch/TradingAgents/stargazers)
+### 1. [TradingAgents](https://github.com/TauricResearch/TradingAgents) [![GitHub_Stars](https://img.shields.io/github/stars/TauricResearch/TradingAgents?style=social&color=white)](https://github.com/TauricResearch/TradingAgents/stargazers)
 - **Repository**: [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
 - **License**: Apache-2.0 | **Language**: Python
 - **Focus**: Multi-Agent LLM Quantitative Trading System
@@ -100,7 +100,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 2. [OpenBB](https://github.com/OpenBB-finance/OpenBB) [![GitHub Stars](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=social&color=white)](https://github.com/OpenBB-finance/OpenBB/stargazers)
+### 2. [OpenBB](https://github.com/OpenBB-finance/OpenBB) [![GitHub_Stars](https://img.shields.io/github/stars/OpenBB-finance/OpenBB?style=social&color=white)](https://github.com/OpenBB-finance/OpenBB/stargazers)
 - **Repository**: [OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
 - **License**: AGPL-3.0 | **Language**: Python
 - **Focus**: Open Financial Data Platform & Terminal Infrastructure
@@ -111,7 +111,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 3. [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) [![GitHub Stars](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=social&color=white)](https://github.com/virattt/ai-hedge-fund/stargazers)
+### 3. [AI Hedge Fund](https://github.com/virattt/ai-hedge-fund) [![GitHub_Stars](https://img.shields.io/github/stars/virattt/ai-hedge-fund?style=social&color=white)](https://github.com/virattt/ai-hedge-fund/stargazers)
 - **Repository**: [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
 - **License**: MIT | **Language**: Python
 - **Focus**: Multi-Agent Collaborative Investing Framework
@@ -122,7 +122,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 4. [Freqtrade](https://github.com/freqtrade/freqtrade) [![GitHub Stars](https://img.shields.io/github/stars/freqtrade/freqtrade?style=social&color=white)](https://github.com/freqtrade/freqtrade/stargazers)
+### 4. [Freqtrade](https://github.com/freqtrade/freqtrade) [![GitHub_Stars](https://img.shields.io/github/stars/freqtrade/freqtrade?style=social&color=white)](https://github.com/freqtrade/freqtrade/stargazers)
 - **Repository**: [freqtrade/freqtrade](https://github.com/freqtrade/freqtrade)
 - **License**: GPL-3.0 | **Language**: Python
 - **Focus**: Autonomous Crypto Trading Bot & Machine Learning Engine
@@ -133,7 +133,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 5. [Qlib](https://github.com/microsoft/qlib) [![GitHub Stars](https://img.shields.io/github/stars/microsoft/qlib?style=social&color=white)](https://github.com/microsoft/qlib) [![GitHub Stars](https://img.shields.io/github/stars/microsoft/qlib?style=social&color=white)](https://github.com/microsoft/qlib/stargazers)
+### 5. [Qlib](https://github.com/microsoft/qlib) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/qlib?style=social&color=white)](https://github.com/microsoft/qlib) [![GitHub_Stars](https://img.shields.io/github/stars/microsoft/qlib?style=social&color=white)](https://github.com/microsoft/qlib/stargazers)
 - **Repository**: [microsoft/qlib](https://github.com/microsoft/qlib)
 - **License**: MIT | **Language**: Python / C++
 - **Focus**: AI-Oriented Quantitative Investment Platform
@@ -144,7 +144,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 6. [vnpy](https://github.com/vnpy/vnpy) [![GitHub Stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social&color=white)](https://github.com/vnpy/vnpy/stargazers)
+### 6. [vnpy](https://github.com/vnpy/vnpy) [![GitHub_Stars](https://img.shields.io/github/stars/vnpy/vnpy?style=social&color=white)](https://github.com/vnpy/vnpy/stargazers)
 - **Repository**: [vnpy/vnpy](https://github.com/vnpy/vnpy)
 - **License**: MIT | **Language**: Python / C++
 - **Focus**: Institutional Quantitative Trading Framework
@@ -155,7 +155,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 7. [CCXT](https://github.com/ccxt/ccxt) [![GitHub Stars](https://img.shields.io/github/stars/ccxt/ccxt?style=social&color=white)](https://github.com/ccxt/ccxt/stargazers)
+### 7. [CCXT](https://github.com/ccxt/ccxt) [![GitHub_Stars](https://img.shields.io/github/stars/ccxt/ccxt?style=social&color=white)](https://github.com/ccxt/ccxt/stargazers)
 - **Repository**: [ccxt/ccxt](https://github.com/ccxt/ccxt)
 - **License**: MIT | **Language**: JavaScript / Python / PHP / C#
 - **Focus**: Universal Crypto Exchange API & WebSocket Engine
@@ -166,7 +166,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 8. [Kronos](https://github.com/shiyu-coder/Kronos) [![GitHub Stars](https://img.shields.io/github/stars/shiyu-coder/Kronos?style=social&color=white)](https://github.com/shiyu-coder/Kronos/stargazers)
+### 8. [Kronos](https://github.com/shiyu-coder/Kronos) [![GitHub_Stars](https://img.shields.io/github/stars/shiyu-coder/Kronos?style=social&color=white)](https://github.com/shiyu-coder/Kronos/stargazers)
 - **Repository**: [shiyu-coder/Kronos](https://github.com/shiyu-coder/Kronos)
 - **License**: Open-Source | **Language**: Python
 - **Focus**: Foundation Models for Financial Time-Series & Market Language
@@ -176,7 +176,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 9. [yfinance](https://github.com/ranaroussi/yfinance) [![GitHub Stars](https://img.shields.io/github/stars/ranaroussi/yfinance?style=social&color=white)](https://github.com/ranaroussi/yfinance/stargazers)
+### 9. [yfinance](https://github.com/ranaroussi/yfinance) [![GitHub_Stars](https://img.shields.io/github/stars/ranaroussi/yfinance?style=social&color=white)](https://github.com/ranaroussi/yfinance/stargazers)
 - **Repository**: [ranaroussi/yfinance](https://github.com/ranaroussi/yfinance)
 - **License**: Apache-2.0 | **Language**: Python
 - **Focus**: Rapid Market Data Downloader
@@ -187,7 +187,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 10. [Backtrader](https://github.com/mementum/backtrader) [![GitHub Stars](https://img.shields.io/github/stars/mementum/backtrader?style=social&color=white)](https://github.com/mementum/backtrader/stargazers)
+### 10. [Backtrader](https://github.com/mementum/backtrader) [![GitHub_Stars](https://img.shields.io/github/stars/mementum/backtrader?style=social&color=white)](https://github.com/mementum/backtrader/stargazers)
 - **Repository**: [mementum/backtrader](https://github.com/mementum/backtrader)
 - **License**: GPL-3.0 | **Language**: Python
 - **Focus**: Pythonic Backtesting & Live Trading Library
@@ -198,7 +198,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 11. [LEAN](https://github.com/QuantConnect/Lean) [![GitHub Stars](https://img.shields.io/github/stars/QuantConnect/Lean?style=social&color=white)](https://github.com/QuantConnect/Lean/stargazers)
+### 11. [LEAN](https://github.com/QuantConnect/Lean) [![GitHub_Stars](https://img.shields.io/github/stars/QuantConnect/Lean?style=social&color=white)](https://github.com/QuantConnect/Lean/stargazers)
 - **Repository**: [QuantConnect/Lean](https://github.com/QuantConnect/Lean)
 - **License**: Apache-2.0 | **Language**: C# / Python
 - **Focus**: Enterprise Multi-Asset Algorithmic Trading Engine
@@ -209,7 +209,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 12. [Hummingbot](https://github.com/hummingbot/hummingbot) [![GitHub Stars](https://img.shields.io/github/stars/hummingbot/hummingbot?style=social&color=white)](https://github.com/hummingbot/hummingbot/stargazers)
+### 12. [Hummingbot](https://github.com/hummingbot/hummingbot) [![GitHub_Stars](https://img.shields.io/github/stars/hummingbot/hummingbot?style=social&color=white)](https://github.com/hummingbot/hummingbot/stargazers)
 - **Repository**: [hummingbot/hummingbot](https://github.com/hummingbot/hummingbot)
 - **License**: Apache-2.0 | **Language**: Python / Cython
 - **Focus**: High-Frequency Market Making & Arbitrage Bot
@@ -220,7 +220,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 13. [Zipline](https://github.com/quantopian/zipline) [![GitHub Stars](https://img.shields.io/github/stars/quantopian/zipline?style=social&color=white)](https://github.com/quantopian/zipline/stargazers)
+### 13. [Zipline](https://github.com/quantopian/zipline) [![GitHub_Stars](https://img.shields.io/github/stars/quantopian/zipline?style=social&color=white)](https://github.com/quantopian/zipline/stargazers)
 - **Repository**: [quantopian/zipline](https://github.com/quantopian/zipline)
 - **License**: Apache-2.0 | **Language**: Python
 - **Focus**: Historical Equities Backtesting Engine
@@ -231,7 +231,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 14. [FinRL](https://github.com/AI4Finance-Foundation/FinRL) [![GitHub Stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRL?style=social&color=white)](https://github.com/AI4Finance-Foundation/FinRL/stargazers)
+### 14. [FinRL](https://github.com/AI4Finance-Foundation/FinRL) [![GitHub_Stars](https://img.shields.io/github/stars/AI4Finance-Foundation/FinRL?style=social&color=white)](https://github.com/AI4Finance-Foundation/FinRL/stargazers)
 - **Repository**: [AI4Finance-Foundation/FinRL](https://github.com/AI4Finance-Foundation/FinRL)
 - **License**: MIT | **Language**: Python
 - **Focus**: Financial Reinforcement Learning & Deep RL Strategies
@@ -242,7 +242,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 15. [TA-Lib (Python)](https://github.com/TA-Lib/ta-lib-python) [![GitHub Stars](https://img.shields.io/github/stars/TA-Lib/ta-lib-python?style=social&color=white)](https://github.com/TA-Lib/ta-lib-python/stargazers)
+### 15. [TA-Lib (Python)](https://github.com/TA-Lib/ta-lib-python) [![GitHub_Stars](https://img.shields.io/github/stars/TA-Lib/ta-lib-python?style=social&color=white)](https://github.com/TA-Lib/ta-lib-python/stargazers)
 - **Repository**: [TA-Lib/ta-lib-python](https://github.com/TA-Lib/ta-lib-python)
 - **License**: BSD | **Language**: C / Cython / Python
 - **Focus**: C-Accelerated Technical Analysis Indicator Library
@@ -253,7 +253,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 16. [VectorBT](https://github.com/polakowo/vectorbt) [![GitHub Stars](https://img.shields.io/github/stars/polakowo/vectorbt?style=social&color=white)](https://github.com/polakowo/vectorbt/stargazers)
+### 16. [VectorBT](https://github.com/polakowo/vectorbt) [![GitHub_Stars](https://img.shields.io/github/stars/polakowo/vectorbt?style=social&color=white)](https://github.com/polakowo/vectorbt/stargazers)
 - **Repository**: [polakowo/vectorbt](https://github.com/polakowo/vectorbt)
 - **License**: Apache-2.0 | **Language**: Python
 - **Focus**: Ultra-Fast Vectorized Backtesting & Optimization
@@ -264,7 +264,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 17. [Backtesting.py](https://github.com/kernc/backtesting.py) [![GitHub Stars](https://img.shields.io/github/stars/kernc/backtesting.py?style=social&color=white)](https://github.com/kernc/backtesting.py/stargazers)
+### 17. [Backtesting.py](https://github.com/kernc/backtesting.py) [![GitHub_Stars](https://img.shields.io/github/stars/kernc/backtesting.py?style=social&color=white)](https://github.com/kernc/backtesting.py/stargazers)
 - **Repository**: [kernc/backtesting.py](https://github.com/kernc/backtesting.py)
 - **License**: AGPL-3.0 | **Language**: Python
 - **Focus**: Lightweight Backtesting & Strategy Optimization
@@ -275,7 +275,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 18. [Jesse](https://github.com/jesse-ai/jesse) [![GitHub Stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social&color=white)](https://github.com/jesse-ai/jesse/stargazers)
+### 18. [Jesse](https://github.com/jesse-ai/jesse) [![GitHub_Stars](https://img.shields.io/github/stars/jesse-ai/jesse?style=social&color=white)](https://github.com/jesse-ai/jesse/stargazers)
 - **Repository**: [jesse-ai/jesse](https://github.com/jesse-ai/jesse)
 - **License**: MIT | **Language**: Python
 - **Focus**: Modern Advanced Crypto Trading Framework
@@ -286,7 +286,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 19. [Superalgos](https://github.com/Superalgos/Superalgos) [![GitHub Stars](https://img.shields.io/github/stars/Superalgos/Superalgos?style=social&color=white)](https://github.com/Superalgos/Superalgos/stargazers)
+### 19. [Superalgos](https://github.com/Superalgos/Superalgos) [![GitHub_Stars](https://img.shields.io/github/stars/Superalgos/Superalgos?style=social&color=white)](https://github.com/Superalgos/Superalgos/stargazers)
 - **Repository**: [Superalgos/Superalgos](https://github.com/Superalgos/Superalgos)
 - **License**: Apache-2.0 | **Language**: JavaScript / Node.js
 - **Focus**: Open-Source Visual Trading Automation Infrastructure
@@ -296,7 +296,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 20. [Barter-rs](https://github.com/barter-rs/barter-rs) [![GitHub Stars](https://img.shields.io/github/stars/barter-rs/barter-rs?style=social&color=white)](https://github.com/barter-rs/barter-rs/stargazers)
+### 20. [Barter-rs](https://github.com/barter-rs/barter-rs) [![GitHub_Stars](https://img.shields.io/github/stars/barter-rs/barter-rs?style=social&color=white)](https://github.com/barter-rs/barter-rs/stargazers)
 - **Repository**: [barter-rs/barter-rs](https://github.com/barter-rs/barter-rs)
 - **License**: MIT | **Language**: Rust
 - **Focus**: High-Performance Event-Driven Live Trading & Backtesting
@@ -306,7 +306,7 @@ The following list compiles active open-source algorithmic trading frameworks, v
 
 ---
 
-### 21. [AlphaAgent](https://github.com/kamendula/AlphaAgent) [![GitHub Stars](https://img.shields.io/github/stars/kamendula/AlphaAgent?style=social&color=white)](https://github.com/kamendula/AlphaAgent/stargazers)
+### 21. [AlphaAgent](https://github.com/kamendula/AlphaAgent) [![GitHub_Stars](https://img.shields.io/github/stars/kamendula/AlphaAgent?style=social&color=white)](https://github.com/kamendula/AlphaAgent/stargazers)
 - **Repository**: [kamendula/AlphaAgent](https://github.com/kamendula/AlphaAgent)
 - **License**: Open-Source | **Language**: Python
 - **Focus**: Leakage-Aware Point-in-Time LLM Trading Agent
@@ -351,7 +351,7 @@ Contributions are warmly encouraged! Help keep this ecosystem reference accurate
 
 1. **Fork the repository** to your own GitHub account.
 2. **Add or edit entries** in `README.md` maintaining proper table structure and alphabetical/star ranking standards.
-3. **Include essential details**: project title, active link, star count badge, license, and a concise 1–2 sentence description of key capabilities.
+3. **Include essential details**: project title, active link, Stars_Count badge, license, and a concise 1–2 sentence description of key capabilities.
 4. **Submit a Pull Request** with a clear explanation of what was added or updated.
 
 ---
