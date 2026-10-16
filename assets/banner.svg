@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e17" />
+      <stop offset="50%" stop-color="#0f192c" />
+      <stop offset="100%" stop-color="#050a12" />
+    </linearGradient>
+
+    <linearGradient id="title-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe" />
+      <stop offset="50%" stop-color="#4facfe" />
+      <stop offset="100%" stop-color="#00c6ff" />
+    </linearGradient>
+
+    <linearGradient id="bull-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.05" />
+    </linearGradient>
+
+    <linearGradient id="grid-glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Glowing filters -->
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="card-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#00f2fe" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <style>
+    .grid-line { stroke: #1e293b; stroke-width: 1; stroke-dasharray: 4,4; }
+    .chart-wave {
+      fill: none;
+      stroke: #10b981;
+      stroke-width: 2.5;
+      stroke-linecap: round;
+      filter: drop-shadow(0 0 6px rgba(16, 185, 129, 0.6));
+    }
+    .chart-wave-secondary {
+      fill: none;
+      stroke: #38bdf8;
+      stroke-width: 1.5;
+      stroke-dasharray: 6,4;
+      opacity: 0.7;
+    }
+    .pulse-dot {
+      fill: #10b981;
+      filter: drop-shadow(0 0 8px #10b981);
+    }
+    @keyframes pulse {
+      0%, 100% { r: 4px; opacity: 1; }
+      50% { r: 7px; opacity: 0.5; }
+    }
+    @keyframes scanline {
+      0% { transform: translateY(-50px); opacity: 0; }
+      50% { opacity: 0.8; }
+      100% { transform: translateY(350px); opacity: 0; }
+    }
+    @keyframes floatCard {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-6px); }
+    }
+    .animated-dot {
+      animation: pulse 2.5s infinite ease-in-out;
+    }
+    .pill {
+      animation: floatCard 4s ease-in-out infinite;
+    }
+    .pill-delayed {
+      animation: floatCard 4.5s ease-in-out infinite 1.5s;
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bg-grad)" stroke="#1e293b" stroke-width="1.5" />
+
+  <!-- Background Grid & Depth Graphics -->
+  <g opacity="0.3">
+    <line x1="50" y1="60" x2="1150" y2="60" class="grid-line" />
+    <line x1="50" y1="120" x2="1150" y2="120" class="grid-line" />
+    <line x1="50" y1="180" x2="1150" y2="180" class="grid-line" />
+    <line x1="50" y1="240" x2="1150" y2="240" class="grid-line" />
+    <line x1="50" y1="300" x2="1150" y2="300" class="grid-line" />
+
+    <line x1="200" y1="30" x2="200" y2="330" class="grid-line" />
+    <line x1="400" y1="30" x2="400" y2="330" class="grid-line" />
+    <line x1="600" y1="30" x2="600" y2="330" class="grid-line" />
+    <line x1="800" y1="30" x2="800" y2="330" class="grid-line" />
+    <line x1="1000" y1="30" x2="1000" y2="330" class="grid-line" />
+  </g>
+
+  <!-- Dynamic Financial Candlesticks & Charts in Background -->
+  <g opacity="0.45">
+    <!-- Bullish area fill -->
+    <path d="M 680 290 Q 750 250, 820 230 T 960 170 T 1080 120 L 1080 320 L 680 320 Z" fill="url(#bull-grad)" />
+    <!-- Wave lines -->
+    <path d="M 680 290 Q 750 250, 820 230 T 960 170 T 1080 120" class="chart-wave" />
+    <path d="M 650 310 Q 720 280, 800 270 T 930 220 T 1120 160" class="chart-wave-secondary" />
+
+    <!-- Animated glowing point on trend line -->
+    <circle cx="1080" cy="120" r="5" class="pulse-dot animated-dot" />
+
+    <!-- Candlestick Accents -->
+    <!-- Candle 1 (Green) -->
+    <line x1="780" y1="220" x2="780" y2="270" stroke="#10b981" stroke-width="1.5" />
+    <rect x="774" y="230" width="12" height="28" rx="2" fill="#10b981" />
+
+    <!-- Candle 2 (Red) -->
+    <line x1="850" y1="200" x2="850" y2="250" stroke="#ef4444" stroke-width="1.5" />
+    <rect x="844" y="210" width="12" height="24" rx="2" fill="#ef4444" />
+
+    <!-- Candle 3 (Green) -->
+    <line x1="920" y1="160" x2="920" y2="220" stroke="#10b981" stroke-width="1.5" />
+    <rect x="914" y="175" width="12" height="32" rx="2" fill="#10b981" />
+
+    <!-- Candle 4 (Green) -->
+    <line x1="1020" y1="120" x2="1020" y2="180" stroke="#10b981" stroke-width="1.5" />
+    <rect x="1014" y="130" width="12" height="36" rx="2" fill="#10b981" />
+  </g>
+
+  <!-- Animated Feature Badges / Floating Pills (Top Right & Bottom Right) -->
+  <g class="pill" transform="translate(860, 40)">
+    <rect width="250" height="38" rx="19" fill="#1e293b" fill-opacity="0.8" stroke="#38bdf8" stroke-width="1" filter="url(#card-shadow)" />
+    <circle cx="20" cy="19" r="6" fill="#38bdf8" />
+    <text x="36" y="23" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">⚡ MULTI-AGENT LLM ALPHA</text>
+  </g>
+
+  <g class="pill-delayed" transform="translate(890, 92)">
+    <rect width="220" height="36" rx="18" fill="#1e293b" fill-opacity="0.8" stroke="#10b981" stroke-width="1" filter="url(#card-shadow)" />
+    <circle cx="18" cy="18" r="5" fill="#10b981" />
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#e2e8f0" letter-spacing="0.5">📈 100K+ COMMUNITY STARS</text>
+  </g>
+
+  <!-- FOREGROUND: Clear Title and Subtitle (Guaranteed Legibility) -->
+  <g transform="translate(70, 0)">
+    <!-- Category Pill -->
+    <g transform="translate(0, 52)">
+      <rect width="210" height="30" rx="8" fill="#0284c7" fill-opacity="0.2" stroke="#38bdf8" stroke-width="1" />
+      <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#38bdf8" letter-spacing="1.2">CURATED QUANT DIRECTORY</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="145" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="46" font-weight="900" fill="url(#title-grad)" letter-spacing="-0.5" filter="url(#neon-glow)">
+      Awesome Algorithmic Trading
+    </text>
+
+    <!-- Subtitle / Value Proposition -->
+    <text x="0" y="195" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#f8fafc">
+      Top Algorithmic Trading Ecosystem: Quantitative Strategy Development &amp; AI Agents
+    </text>
+
+    <text x="0" y="228" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14.5" font-weight="400" fill="#94a3b8">
+      Curated SaaS Brokerages, Vectorized Engines, Machine Learning Frameworks &amp; Multi-Agent LLMs
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 266)">
+      <!-- Tag 1 -->
+      <rect x="0" y="0" width="155" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="18" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">🤖 AI Trading Agents</text>
+
+      <!-- Tag 2 -->
+      <rect x="168" y="0" width="170" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="186" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">📊 Backtest Engines</text>
+
+      <!-- Tag 3 -->
+      <rect x="350" y="0" width="165" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="368" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">⚡ Brokerage APIs</text>
+
+      <!-- Tag 4 -->
+      <rect x="528" y="0" width="160" height="32" rx="16" fill="#1e293b" stroke="#334155" stroke-width="1" />
+      <text x="546" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="500" fill="#cbd5e1">🌐 Crypto &amp; Equities</text>
+    </g>
+  </g>
+</svg>
